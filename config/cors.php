@@ -20,11 +20,12 @@ return [
     'allowed_methods' => ['*'],
 
     // 'allowed_origins' => ['https://undrokisel.github.io/nenetflix-online-cinema/'],
-    'allowed_origins_patterns' => [
-        '/^https:\/\/undrokisel\.github\.io\/nenetflix-online-cinema\//'
-    ],
+    'allowed_origins' => ['*'],
+    // 'allowed_origins_patterns' => [
+    //     '/^https:\/\/undrokisel\.github\.io\/nenetflix-online-cinema\//'
+    // ],
 
-    // 'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
 
